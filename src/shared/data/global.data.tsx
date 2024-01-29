@@ -68,11 +68,7 @@ export const headerData: HeaderProps = {
     },
   ],
   actions: [
-    {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
-    },
+    
   ],
   isSticky: true,
   showToggleTheme: true,
@@ -204,7 +200,7 @@ export const footerData: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Github', icon: IconBrandGithub,href: '#' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
@@ -254,15 +250,9 @@ export const footerData2: FooterProps = {
   ],
   footNote: (
     <div className="mr-4 text-sm">
-      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a
-        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-        href="https://onwidget.com/"
-      >
-        {' '}
-        onWidget
-      </a>{' '}
+      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
+      Made by Shehzaib{' '}
+      
       · All rights reserved.
     </div>
   ),

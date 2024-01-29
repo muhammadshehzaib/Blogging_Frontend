@@ -41,32 +41,23 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      <span className="hidden md:inline">Explore the world of blogging with</span> <span>Next.js</span> +{' '}
+  <span className="sm:whitespace-nowrap">Tailwind CSS</span>
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+     <span className="hidden md:inline">
+  <span className="font-semibold ">
+  ScribbleSphere
+  </span>{' '}
+  is a polished template crafted for your blogging journey using{' '}
+  <em>Next.js</em> + <em>Tailwind CSS</em>. It incorporates industry best practices, ensuring
+  excellence in SEO, Accessibility, Dark Mode, and superior Page Speed, along with optimized image handling.
+</span>
     </>
   ),
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-    targetBlank: true,
-  },
-  callToAction2: {
-    text: 'Learn more',
-    href: '/',
-  },
+ 
   image: {
     src: heroImg,
     alt: 'Hero TailNext',
@@ -109,18 +100,18 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        What you get with <span className="whitespace-nowrap">ScribbleSphere</span>
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
+      "Boosting Your Online Impact: Unveiling the Harmonies Unleashed in Our Platform's Fundamental Capabilities, from Effortless Integration to Collaborative Creativity.",
     tagline: 'Features',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'User-Friendly Interface',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'A streamlined and visually appealing interface that welcomes bloggers with an intuitive dashboard.',
       icon: IconBrandTailwind,
       callToAction: {
         text: 'Discover now',
@@ -128,9 +119,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Content Management',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'Efficient tools for creating, editing, and organizing blog posts.Support for multimedia content like images, videos, and audio.',
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
@@ -138,9 +129,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Customization Options',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
+        'Personalized themes and templates to match individual styles.Customizable layouts for a unique blog appearance.',
       icon: IconListCheck,
       callToAction: {
         text: 'Discover now',
@@ -148,9 +139,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'SEO Optimization',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        'Built-in SEO tools to help improve the visibility of blog posts on search engines.Meta tags, descriptions, and keyword optimization features.',
       icon: IconRocket,
       callToAction: {
         text: 'Discover now',
@@ -158,9 +149,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Security Measures',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
+        "Secure login systems and measures to protect against cyber threats.Regular backups to prevent and stop data loss and data security.",
       icon: IconArrowsRightLeft,
       callToAction: {
         text: 'Discover now',
@@ -168,9 +159,9 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'Responsive Design:',
       description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'Mobile-friendly design to ensure a great user experience across devices.Optional dark mode for users who prefer a darker color scheme.',
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
@@ -301,7 +292,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Tayla Kirsten',
       job: 'Marketing Manager',
-      testimonial: `I'm impressed by the speed and performance of these templates. My website now loads in the blink of an eye, significantly enhancing my visitors' experience. Thanks to TailNext, my online business is thriving.`,
+      testimonial: `ScribbleSphere has transformed my blogging journey! The seamless interface and powerful features made publishing and sharing my thoughts a breeze. It truly elevates the blogging experience to new heights.`,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -311,7 +302,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Silver Jordan',
       job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. TailNext's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      testimonial: `As a seasoned blogger, finding a platform that balances simplicity and sophistication is crucial. TailNext not only meets but exceeds these expectations. It's become my go-to choice for its user-friendly design and exceptional performance.`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -321,7 +312,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Kelsey Arden',
       job: 'Co-Founder & CEO',
-      testimonial: `As a beginner in web development, I really needed clear guidance. Tailnext made it possible. I was able to install and customize my website seamlessly, and I'm thrilled with the results!`,
+      testimonial: `The synergy of Next.js and Tailwind CSS on Scribblesphere provides an unbeatable foundation for my blog. The attention to detail in design, combined with robust SEO practices, has significantly enhanced my digital presence.`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -331,7 +322,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Sarah Johnson',
       job: 'Business Owner',
-      testimonial: `They've not only saved me a ton of time but have also made my websites look incredibly professional. The level of detail and thought that went into designing these templates is truly impressive.`,
+      testimonial: `Scribblesphere commitment to best practices is evident in every feature. From dark mode support to image optimization, it ticks all the boxes. My blog's page speed and accessibility have never been better. TailNext is a game-changer!`,
       image: {
         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Sarah Johnson',
@@ -341,7 +332,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Keith Young',
       job: 'Freelance Developer',
-      testimonial: `The clean code and integration with Next.js make my projects a breeze. Plus, the responsive design ensures that my clients' websites look amazing on any device. These templates have become my secret weapon for success!`,
+      testimonial: `Starting a blog can be daunting, but Scribblesphere made it surprisingly simple. The thoughtful guidance and responsive support team ensured a smooth onboarding. `,
       image: {
         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Keith Young',
@@ -351,7 +342,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Lisa Gordon',
       job: 'Project Manager',
-      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with TailNext.`,
+      testimonial: `Scribblesphere offers a perfect blend of creativity and functionality. The templates are stunning, and the platform is designed to cater to bloggers of all levels.`,
       image: {
         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Lisa Gordon',
@@ -373,27 +364,27 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'What do I need to start?',
+      title: 'What makes our blogging site unique?',
       description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
+      title: 'How do I get started with blogging on your site?',
       description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
     },
     {
-      title: "What's something that you completely don't understand?",
+      title: "Can I customize the look and feel of my blog?",
       description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
+      title: "Is there support for SEO optimization?",
       description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
+      title: 'What features are available to enhance my blogs performance?',
       description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
+      title: 'How can I connect with other bloggers on your platform?',
       description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
     },
   ],
@@ -664,17 +655,9 @@ export const callToAction2Home: CallToActionProps = {
   title: 'Next.js + Tailwind CSS',
   subtitle:
     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
+
   items: [
-    {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
+   
     {
       title: 'Learn more',
       description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
